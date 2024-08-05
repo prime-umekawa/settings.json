@@ -1,0 +1,29 @@
+{
+  "workbench.startupEditor": "none", //VSCode立ち上げ時に空のファイルを開かない
+  "workbench.iconTheme": "vscode-icons", //アイコンテーマにvscode-iconsを使用する
+  "editor.fontSize": 14, //エディタのフォントサイズ
+  "terminal.integrated.fontSize": 14, //VSCode内のターミナルのフォントサイズ
+  "editor.bracketPairColorization.enabled": true, //括弧に色をつける
+  "editor.guides.bracketPairs": "active", //括弧に色をつける
+  "editor.insertSpaces": true, //インデントにスペースを使用する
+  "editor.tabSize": 2, //インデントのスペース数を2にする
+  "files.autoSave": "afterDelay", //ファイルを自動保存する、自動保存したくない場合は"off"にする
+  "editor.formatOnSave": true, //保存時にフォーマッタを走らせる
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "always",
+
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.useESLintClass": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
